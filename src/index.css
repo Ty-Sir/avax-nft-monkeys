@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  overflow: auto;
+}
+
+#components-layout-demo-custom-trigger,
+.trigger {
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#components-layout-demo-custom-trigger,
+.trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger,
+.logo {
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 42px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+@media only screen and (max-width: 370px) {
+  .native-balance {
+    display: none !important;
+  }
+}

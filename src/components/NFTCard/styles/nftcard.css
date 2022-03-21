@@ -1,0 +1,23 @@
+.ant-card-body {
+  padding-top: 0;
+  padding-bottom: 0.8rem;
+}
+
+.ant-image-preview-img {
+  display: initial;
+  padding: 5vw;
+  pointer-events: none;
+}
+
+.ant-image-preview-operations {
+  display: none;
+}
+
+.ant-btn-link {
+  padding-left: 0;
+}
+
+.ant-modal-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}

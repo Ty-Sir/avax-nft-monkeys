@@ -1,0 +1,85 @@
+.scroll-container {
+  background: rgb(245, 245, 0);
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.scroll-container .scroll-text {
+  font-family: sans-serif;
+  color: black;
+  -webkit-text-fill-color: rgb(245, 245, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 2rem;
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  -moz-transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+  transform: translateX(-10%);
+  -moz-animation: scroll-left 120s linear infinite;
+  -webkit-animation: scroll-left 120s linear infinite;
+  animation: scroll-left 120s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+  }
+  50% {
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  100% {
+    -moz-transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+  }
+}
+
+.mint-title {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 900;
+  text-align: center;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.mint-buttons {
+  display: grid;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.reset-button {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-text {
+  text-align: center;
+  padding: 0 0.5rem;
+}

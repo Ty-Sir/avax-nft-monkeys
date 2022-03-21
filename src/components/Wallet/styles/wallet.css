@@ -1,0 +1,20 @@
+.wallet-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem 2rem;
+}
+
+.wallet-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.no-user-chain-message {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
