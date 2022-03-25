@@ -7,7 +7,7 @@ Interact at https://avaxmonkeys.xyz
 
 ## Getting Started
 
-[Watch the getting started tutorial](https://www.youtube.com/watch?v=aql_S3sJ2yI&t=19s)
+### [Watch the getting started tutorial](https://www.youtube.com/watch?v=aql_S3sJ2yI&t=19s)
 
 *It's best practice to NOT show your table names so user can't hack their way in, this is just to show how to set up the sync events as stated in the video*
 
